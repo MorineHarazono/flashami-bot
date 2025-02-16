@@ -59,7 +59,7 @@ const mentors = [
     { name: "もりね", leaders: "11期", course: "Webデザイン", region: "関東🏮", license: "勝者", springLove: "かわいいところ", camera: "Canon" },
     { name: "きぺお", leaders: "15期", course: "映像制作", region: "東海🥠", license: "勝者だが敗者（ペーパー）", springLove: "外でお昼寝しても気持ちいい温度なところ", camera: "Panasonic" },
     { name: "さく", leaders: "13期", course: "Unity", region: "東海🥠", license: "勝者だが敗者（ペーパー）", springLove: "アウターなしで夜散歩できるようになるのが嬉しい", camera: "SONY" },
-
+    { name: "すず", leaders: "14期", course: "iPhone", region: "東海🥠", license: "勝者だが敗者（ペーパー）", springLove: "花粉が全力で攻めてきて『私らの存在感、見せてやる！』って気合い入れてくるところですかね。やつらの存在感に負けないように頑張ります！", camera: "Canon" },
 
 ];
 
