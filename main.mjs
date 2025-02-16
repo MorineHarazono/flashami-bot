@@ -86,9 +86,10 @@ client.on("messageCreate", async (message) => {
 });
 
 client.on("ready", async () => {
-  await client.user.setActivity('🥔', { type: ActivityType.Custom, state: "🥔を栽培中" });
+  await client.user.setActivity('📸', { type: ActivityType.Custom, state: "撮影中📸" });
   console.log(`${client.user.tag} がログインしました！`);
 });
+
 
 Notification.sync({ alter: true });
 YoutubeFeeds.sync({ alter: true });
