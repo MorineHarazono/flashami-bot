@@ -35,12 +35,32 @@ const mentors = [
     { name: "かめさん", leaders: "14期", course: "Android", region: "東海🥠", license: "敗者！助手席は任せてください", springLove: "気温がちょうどいい！", camera: "Nikon" },
     { name: "きなこ", leaders: "15期", course: "Minecraft", region: "関西🧆", license: "勝者だが敗者（ペーパー）", springLove: "桜がきれいなところ！", camera: "Canon" },
     { name: "ほしょ", leaders: "12期", course: "iPhone", region: "関西🧆", license: "勝者", springLove: "今回のアクティビティめっちゃ気になる〜", camera: "Canon" },
-    { name: "KURO", leaders: "13期", course: "映像制作", region: "関西🧆", license: "勝者", springLove: "俺の誕生日があるところ", camera: "#N/A" },
+    { name: "KURO", leaders: "13期", course: "映像制作", region: "関西🧆", license: "勝者", springLove: "俺の誕生日があるところ", camera: "SONY" },
     { name: "ちゃんぽん", leaders: "12期", course: "Webデザイン", region: "関東🏮", license: "勝者だが敗者（ペーパー）", springLove: "祝日が地味に多い^^", camera: "Canon" },
     { name: "じゃぱお", leaders: "12期", course: "映像制作", region: "関東🏮", license: "勝者", springLove: "なにかがはじまるかんじ！", camera: "SONY" },
     { name: "まっすー", leaders: "16期", course: "映像制作", region: "東海🥠", license: "勝者だが敗者（ペーパー）", springLove: "桜！！！", camera: "FUJIFILM" },
     { name: "ありこ", leaders: "14期", course: "Android", region: "関東🏮", license: "勝者", springLove: "気温", camera: "SONY" },
     { name: "おまつ", leaders: "15期", course: "メディアアート", region: "関西🧆", license: "勝者だが敗者（ペーパー）", springLove: "桜🌸", camera: "Nikon" },
+    { name: "ばく", leaders: "16期", course: "Webデザイン", region: "関西🧆", license: "敗者！助手席は任せてください", springLove: "さくら！！におい！！！出会い！！！！", camera: "Canon" },
+    { name: "はーちぃ", leaders: "16期", course: "アニメーション", region: "関東🏮", license: "勝者だが敗者（ペーパー）", springLove: "三角チョコパイの季節🎶", camera: "Canon" },
+    { name: "ゆわ", leaders: "16期", course: "アニメーション", region: "関東🏮", license: "敗者！助手席は任せてください", springLove: "〜ハワイだョ！全員集合〜", camera: "SONY" },
+    { name: "しろ", leaders: "16期", course: "アニメーション", region: "関東🏮", license: "敗者！助手席は任せてください", springLove: "桜が咲くこと！", camera: "未定" },
+    { name: "ゆるゆる", leaders: "12期", course: "Minecraft", region: "関東🏮", license: "敗者！助手席は任せてください", springLove: "植物の色味が全体的にいい感じ", camera: "Canon" },
+    { name: "あるが", leaders: "13期", course: "Unity", region: "関東🏮", license: "勝者だが敗者（ペーパー）", springLove: "推しの誕生日があることですね", camera: "Canon" },
+    { name: "さぁ坊", leaders: "16期", course: "メディアアート", region: "関東🏮", license: "敗者！助手席は任せてください", springLove: "ちょうどいい", camera: "Canon" },
+    { name: "あるちゃん", leaders: "16期", course: "iPhone", region: "関西🧆", license: "勝者", springLove: "桜きれい", camera: "未定" },
+    { name: "だす", leaders: "8期", course: "Android", region: "関東🏮", license: "勝者", springLove: "日が延びてくること", camera: "RICOH" },
+    { name: "みぞ", leaders: "13期", course: "Unity", region: "関東🏮", license: "勝者だが敗者（ペーパー）", springLove: "花粉症だからない！あったかいところ行きたい", camera: "#N/A" },
+    { name: "さーさん", leaders: "13期", course: "Unity", region: "東海🥠", license: "勝者", springLove: "4月生まれ！", camera: "Nikon" },
+    { name: "なつつ", leaders: "14期", course: "Unity", region: "関東🏮", license: "勝者", springLove: "たんぽぽの綿毛飛ばせる", camera: "未定" },
+    { name: "チロル", leaders: "16期", course: "映像制作", region: "東海🥠", license: "敗者！助手席は任せてください", springLove: "出会いと別れがあること", camera: "Canon" },
+    { name: "あづき", leaders: "13期", course: "映像制作", region: "関東🏮", license: "勝者だが敗者（ペーパー）", springLove: "桜のフラペチーノが美味しい", camera: "Canon" },
+    { name: "きほもり", leaders: "12期", course: "iPhone", region: "関東🏮", license: "勝者だが敗者（ペーパー）", springLove: "許さない‼️‼️原囿‼️", camera: "FUJIFILM" },
+    { name: "もりね", leaders: "11期", course: "Webデザイン", region: "関東🏮", license: "勝者", springLove: "かわいいところ", camera: "Canon" },
+    { name: "きぺお", leaders: "15期", course: "映像制作", region: "東海🥠", license: "勝者だが敗者（ペーパー）", springLove: "外でお昼寝しても気持ちいい温度なところ", camera: "Panasonic" },
+    { name: "さく", leaders: "13期", course: "Unity", region: "東海🥠", license: "勝者だが敗者（ペーパー）", springLove: "アウターなしで夜散歩できるようになるのが嬉しい", camera: "SONY" },
+
+
 ];
 
 for (const mentor of mentors) {
