@@ -12,8 +12,20 @@ export default async(message) => {
   if (message.content.match(/朝ごはん！/)) {
     await message.reply("ええ！朝ごはんを食べてるしゃみか〜！うらやましいしゃみ〜。みんなが美味しそうに朝ごはんを食べている写真を見せてほしいしゃみ〜！");
   }
-    if (message.content.match(/出発！/)) {
-    await message.reply("Day2が始めるしゃみ〜！！他の車を寄せ付けない盛り上がりの写真を見てみたいしゃみ！車ごとにチーム名も決めてほしいしゃみね！！");
+  if (message.content.match(/朝ごはん！/)) {
+    await message.reply("ええ！朝ごはんを食べてるしゃみか〜！うらやましいしゃみ〜。みんなが美味しそうに朝ごはんを食べている写真を見せてほしいしゃみ〜！");
+  }
+  if (message.content.match(/朝ごはん！/)) {
+    await message.reply("ええ！朝ごはんを食べてるしゃみか〜！うらやましいしゃみ〜。みんなが美味しそうに朝ごはんを食べている写真を見せてほしいしゃみ〜！");
+  }
+    if (message.content.match(/Day1出発！/)) {
+    await message.reply("ついにFlacation kmtが始めるしゃみ〜！！始まった感のある写真を見てみたいしゃみ！車ごとにチーム名も決めてほしいしゃみね！！");
+  }
+    if (message.content.match(/Day2出発！/)) {
+    await message.reply("Day2が始めるしゃみ〜！！他の車を寄せ付けない躍動感のある写真を見てみたいしゃみ！車ごとにチーム名も決めてほしいしゃみね！！");
+  }
+    if (message.content.match(/Day3出発！/)) {
+    await message.reply("最終日が始めるしゃみ〜！！バカみてーに怖いくらい笑ってる写真を見てみたいしゃみ！ひひひ");
   }
     if (message.content.match(/BeReal！/)) {
     await message.reply("⚠️BeRealの時間⚠️今の状況を雑談チャンネルに投稿しよう！しゃみ。");
