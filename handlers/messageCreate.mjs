@@ -12,6 +12,9 @@ export default async(message) => {
   if (message.content.match(/朝ごはん！/)) {
     await message.reply("ええ！朝ごはんを食べてるしゃみか〜！うらやましいしゃみ〜。みんなが美味しそうに朝ごはんを食べている写真を見せてほしいしゃみ〜！");
   }
+  if (message.content.match(/Day1車割！/)) {
+    await message.reply("到着したしゃみか！うれしいしゃみね〜！目的地についたっぽい写真を見たいしゃみ！");
+  }
   if (message.content.match(/昼ごはん！/)) {
     await message.reply("わ！昼ごはんを食べてるしゃみか〜！お腹すいたしゃみ〜。まるで自分で作ったかのようにご飯を紹介している写真を見せてほしいしゃみ〜！");
   }
