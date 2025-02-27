@@ -13,7 +13,7 @@ export default async(message) => {
     await message.reply("ええ！朝ごはんを食べてるしゃみか〜！うらやましいしゃみ〜。みんなが美味しそうに朝ごはんを食べている写真を見せてほしいしゃみ〜！");
   }
   if (message.content.match(/Day1車割！/)) {
-    await message.reply("到着したしゃみか！うれしいしゃみね〜！目的地についたっぽい写真を見たいしゃみ！");
+    await message.reply(`チームトヨタ：さーさん、すず、さく、チロル、きなこ\n`+`チームスズキ：あるちゃん、ばく、きぺお、まっすー、かめさん\n`+`チームグラセフ：きほもり、ゆっきー、あづき、うらっしゅ、ヨヨギ、きょーりゅー\n`+`チーム免許返納：もりね、あっぷる、みるく、あるが、さぁ坊、はーちぃ\n`+`チームキラー：ゆわ、しろ、なつつ、ありこ、ちゃんぽん、ゆるゆる\n`);
   }
   if (message.content.match(/昼ごはん！/)) {
     await message.reply("わ！昼ごはんを食べてるしゃみか〜！お腹すいたしゃみ〜。まるで自分で作ったかのようにご飯を紹介している写真を見せてほしいしゃみ〜！");
@@ -38,6 +38,9 @@ export default async(message) => {
   }
   if (message.content.match(/到着！/)) {
     await message.reply("到着したしゃみか！うれしいしゃみね〜！目的地についたっぽい写真を見たいしゃみ！");
+  }
+  if (message.content.match(/アレルギー！/)) {
+    await message.reply(`アレルギーはこんな感じしゃみ！気をつけてしゃみ〜！\n`+`くるみ、蕎麦、エビ、カニ、犬猫動物等の毛、皮脂、ハウスダスト、`);
   }
   
 const mentors = [
