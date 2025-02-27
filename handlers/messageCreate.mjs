@@ -19,7 +19,7 @@ export default async(message) => {
     await message.reply("わ！昼ごはんを食べてるしゃみか〜！お腹すいたしゃみ〜。まるで自分で作ったかのようにご飯を紹介している写真を見せてほしいしゃみ〜！");
   }
     if (message.content.match(/Day1出発！/)) {
-    await message.reply("ついにFlacation kmtが始めるしゃみ〜！！始まった感のある写真を見てみたいしゃみ！車ごとにチーム名も決めてほしいしゃみね！！");
+    await message.reply("ついにFlacation kmtが始めるしゃみ〜！！始まった感のある写真を見てみたいしゃみ！");
   }
     if (message.content.match(/Day2出発！/)) {
     await message.reply("Day2が始めるしゃみ〜！！他の車を寄せ付けない躍動感のある写真を見てみたいしゃみ！車ごとにチーム名も決めてほしいしゃみね！！");
@@ -40,7 +40,7 @@ export default async(message) => {
     await message.reply("到着したしゃみか！うれしいしゃみね〜！目的地についたっぽい写真を見たいしゃみ！");
   }
   if (message.content.match(/アレルギー！/)) {
-    await message.reply(`アレルギーはこんな感じしゃみ！気をつけてしゃみ〜！\n`+`くるみ、蕎麦、エビ、カニ、犬猫動物等の毛、皮脂、ハウスダスト、`);
+    await message.reply(`アレルギーはこんな感じしゃみ！気をつけてしゃみ〜！\n`+`くるみ、蕎麦、エビ、カニ、ナス、貝類、きゅうり、とろろ、犬猫動物等の毛、皮脂、ハウスダスト、`);
   }
   
 const mentors = [
@@ -62,7 +62,7 @@ const mentors = [
     { name: "ばく", leaders: "16期", course: "Webデザイン", region: "関西🧆", license: "敗者！助手席は任せてください", springLove: "さくら！！におい！！！出会い！！！！", camera: "Canon" },
     { name: "はーちぃ", leaders: "16期", course: "アニメーション", region: "関東🏮", license: "勝者だが敗者（ペーパー）", springLove: "三角チョコパイの季節🎶", camera: "Canon" },
     { name: "ゆわ", leaders: "16期", course: "アニメーション", region: "関東🏮", license: "敗者！助手席は任せてください", springLove: "〜ハワイだョ！全員集合〜", camera: "SONY" },
-    { name: "しろ", leaders: "16期", course: "アニメーション", region: "関東🏮", license: "敗者！助手席は任せてください", springLove: "桜が咲くこと！", camera: "未定" },
+    { name: "しろ", leaders: "16期", course: "アニメーション", region: "関東🏮", license: "敗者！助手席は任せてください", springLove: "桜が咲くこと！", camera: "Canon" },
     { name: "ゆるゆる", leaders: "12期", course: "Minecraft", region: "関東🏮", license: "敗者！助手席は任せてください", springLove: "植物の色味が全体的にいい感じ", camera: "Canon" },
     { name: "あるが", leaders: "13期", course: "Unity", region: "関東🏮", license: "勝者だが敗者（ペーパー）", springLove: "推しの誕生日があることですね", camera: "Canon" },
     { name: "さぁ坊", leaders: "16期", course: "メディアアート", region: "関東🏮", license: "敗者！助手席は任せてください", springLove: "ちょうどいい", camera: "Canon" },
