@@ -68,6 +68,8 @@ client.on("ready", async () => {
 
 
 CommandsRegister();
-client.login(process.env.TOKEN);
-
+app.listen(process.env.PORT || 8000, () => {
+  console.log(`Server is listening!`);
+  client.login(process.env.TOKEN);
+});
 

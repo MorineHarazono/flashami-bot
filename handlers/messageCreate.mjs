@@ -51,6 +51,14 @@ export default async(message) => {
 
 const mentors = [
   {
+    name: "ゆわ",
+    leaders: "16期",
+    course: "アニメーション",
+    region: "関東🏮",
+    license: "敗者",
+    summerMemory: "夏のOP映像っしょ笑。あれみた？笑。"
+  },
+  {
     name: "きゃあ。",
     leaders: "6期",
     course: "映像制作",
