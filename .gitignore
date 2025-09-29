@@ -1,4 +1,4 @@
-.glitchdotcom.json
-.node-gyp
-node_modules
-.data/
+.env
+.DS_Store
+.bash_history
+.config/
