@@ -48,6 +48,9 @@ export default async(message) => {
   if (message.content.match(/アレルギー！/)) {
     await message.reply(`アレルギーはこんな感じしゃみ！気をつけてしゃみ〜！\n`+`きゅうり，とろろ，生エビ，キウイ，スイカ，メロン`);
   }
+  if (message.content.match(/うんち！/)) {
+    await message.reply(`💩`);
+  }
 
 const mentors = [
   {
